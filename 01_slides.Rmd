@@ -1088,6 +1088,6 @@ count: false
 <fhoces@berkeley.edu>
 ]
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 pagedown::chrome_print("01_slides.html", output = "01_slides.pdf")
 ```
