@@ -2,10 +2,10 @@
 title: "Transparencia en Investigación: Problemas y Soluciones"
 subtitle: ".font80[Ciclo de Seminarios Económicos, Universidad de Talca]"
 author: "Fernando Hoces, </br> Berkeley Initiative for Transparency in the Social Sciences"
-date:  "`r format(as.Date('2020-10-15'), '%d %m %Y')` | [diapositivas](https://github.com/BITSS/ACREslides-utalca-2020)"
+date:  "`r format(as.Date('2020-10-15'), '%d %m %Y')` | [diapositivas](https://github.com/BITSS/slides-utalca-2020)"
 output: 
   xaringan::moon_reader:
-    footer: "These slides available at https://github.com/BITSS/ACREslides-utalca-2020"
+    footer: "These slides available at https://github.com/BITSS/slides-utalca-2020"
     css: [default, metropolis, metropolis-fonts] 
     lib_dir: libs
     nature:
@@ -334,13 +334,13 @@ background-size: 500px
 
 # Planes de Pre-analysis  
 
-Un plan de pre-análisis (PAPs) es una descripción detallada de los análisis a ser conducidos. 
+Un plan de pre-análisis (PAPs) es una descripción detallada de los análisis a ejecutar. 
 
 - Cómo se van a medir los principales variables de resultado, 
 
-- Dentro de las variables de resultado: cuales son primarias, cuales secundarias?
+- Dentro de las variables de resultado: cúales son primarias, cúales secundarias?
 
-- Explication detallada de todo el conjunto de tests a llevar a cabo. 
+- Explicación detallada de todo el conjunto de tests a llevar a cabo. 
 
 - Ajustes por tests de hipótesis multiples 
 
@@ -1088,6 +1088,6 @@ count: false
 <fhoces@berkeley.edu>
 ]
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
 pagedown::chrome_print("01_slides.html", output = "01_slides.pdf")
 ```
